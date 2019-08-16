@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Home Page</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <button class="nav-left"><a href="./index.html" alt="Last Climate"><img src="./logo.png" alt="Last Climate"></a></button>
+      <button class="nav-right"><a href="./about.html">About</a></button>
+      <button class="nav-right"><a href="./resources.html">Resources</a></button>
+      <div class="dropdown">
+        <button class="dropbtn">Issues
+        <div class="dropdown-content">
+          <a class="links" href="./plastics.html">Plastic Waste</a>
+          <a class="links" href="./greenhouse.html">Greenhouse Gases</a>
+          <a class="links" href="./deforestation.html">Deforestation</a>
+        </div>
+      </div>
+    </div>
+    <div class="slideshow">
+      <div class="slideshow-container">
+        <div class="mySlides">
+          <img src="https://thumbs.gfycat.com/CoordinatedGracefulHuia-small.gif" style="width:100%">
+        </div>
+        <div class="mySlides">
+          <img src="https://media2.giphy.com/media/Q6ddrab7bCndu/source.gif" style="width:100%">
+        </div>
+        <div class="mySlides">
+          <img src="https://media2.giphy.com/media/1zRgWz2YridVFaSL0z/giphy.gif" style="width:100%">
+        </div>
+        <div class="mySlides">
+          <img src="https://reseuro.magzter.com/1400x788/articles/821/259752/5a4ccd70b74fa/Environmental-Pollution-in-Bangladesh-Its-Effects-and-Control.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+          <img src="https://media1.giphy.com/media/Y2sQVqjfa185O/source.gif" style="width:100%">
+        </div>
+        <div class="mySlides">
+          <img src="https://images.reference.com/amg-cms-reference-images/prod/effect-of-land-pollution_b337efa7-1c28-436e-94ff-311008286030.jpg?width=760&height=411&fit=crop" style="width:100%">
+        </div>
+        <div class="mySlides">
+          <img src="https://thumbs.gfycat.com/MagnificentEnormousCanary-size_restricted.gif" style="width:100%">
+        </div>
+        <div class="mySlides">
+          <img src="https://metro.co.uk/wp-content/uploads/2018/07/rubbish.gif" style="width:100%">
+        </div>
+      </div>
+    </div>
+    <div class="mission-statement">
+      <h1 id="mission">MISSION</h1>
+      <p><span class="greentext">Last Climate</span> seeks to inform people of all backgrounds about the <span class="greentext">environmental issues</span> facing us today through a <span class="greentext">simple and condensed</span> platform.</p>
+    </div><br>
+    <div class="homepage">
+      <img class="homepageCovers" src="https://images.pexels.com/photos/2583836/pexels-photo-2583836.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Plastic Waste">
+      <div class="homepageBlurbs">
+        <h1>Plastic Waste</h1>
+        <p>Plastic pollution occurs when plastic goes through one use or a short amount of uses, usually unneccessarily, and then ends up at a location where it shouldn’t be, e.g. a beach or an ocean.</p>
+        <form action="./plastics.html" method="get">
+          <input type="submit" class="readMore" value="Find Out More">
+        </form>
+      </div>
+    </div><br>
+    <div class="homepage">
+      <img class="homepageCovers" src="https://images.pexels.com/photos/60575/smoke-smoking-chimney-fireplace-60575.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Greenhouse Gases">
+      <div class="homepageBlurbs">
+        <h1>Greenhouse Gases</h1>
+        <p>Human activities like burning fossil fuels, land clearing, and agriculture are increasing greenhouse gas concentrations in the world, leading to global warming.</p>
+        <form action="./greenhouse.html" method="get">
+          <input type="submit" class="readMore" value="Find Out More">
+        </form>
+      </div>
+    </div><br>
+    <div class="homepage">
+      <img class="homepageCovers" src="https://images.pexels.com/photos/1268076/pexels-photo-1268076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Deforestation">
+      <div class="homepageBlurbs">
+        <h1>Deforestation and Agriculture</h1>
+        <p>The biggest threat to forests, globally, is deforestation. When forests are converted to agriculture, road construction, and other non-forest uses, deforestation occurs.</p>
+        <form action="./deforestation.html" method="get">
+          <input type="submit" class="readMore" value="Find Out More">
+        </form>
+      </div>
+    </div><br>
+    <div class="acknowledgements">
+      <h1>Acknowledgements</h1>
+      <p>Thank you to our instructors, <span class="greentext">Abby and Bart</span>, and our IA's, <span class="greentext">Kayla and Tallie</span>, for guiding us through this project and teaching us how to code.</p>
+    </div>
+    <div class='popupContainer'>
+      <div class='popup'>
+        <h1 id="popuptitle">Subscribe to Our Newsletter!</h1>
+        <input class="info" type="text" placeholder="First Name">
+        <input class="info" type="text" placeholder="Last Name"><br>
+        <input class="info" type="email" placeholder="Email"><br>
+        <button class="submit" type="submit">Submit</button><br>
+        <button class="quit" type="submit">No thanks!</button>
+      </div>
+      <button class="exit" type="submit">X</button>
+    </div>
+    <div class='donateContainer'>
+      <div class='donatePopUp'>
+        <h1>Thanks for Donating!</h1>
+      </div>
+      <button class="exitDonate" type="submit">X</button>
+    </div>
+    <div class="side-bar">
+      <button id="subscribe" class="sideIcon" type="submit"><img src="./email.png"></button>
+      <button id="instagram" class="sideIcon" type="submit"><a href="https://instagram.com" target="_blank"><img src="./instagram.png"></a></button>
+      <button id="donate" class="sideIcon" type="submit"><img src="./donate.png"></button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+
+
+  </body>
+</html>
